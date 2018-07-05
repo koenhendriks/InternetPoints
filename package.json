@@ -1,0 +1,31 @@
+{
+  "name": "internetpointsbot",
+  "version": "1.0.0",
+  "description": "Telegram bot to keep track of internet points",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koenhendriks/InternetPoints.git"
+  },
+  "keywords": [
+    "internetpoints",
+    "points",
+    "internet",
+    "telegram",
+    "bot"
+  ],
+  "author": "Koen Hendriks <info@koenhendriks.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koenhendriks/InternetPoints/issues"
+  },
+  "homepage": "https://github.com/koenhendriks/InternetPoints#readme",
+  "dependencies": {
+    "firebase": "^5.2.0",
+    "firebase-admin": "^5.12.1",
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
